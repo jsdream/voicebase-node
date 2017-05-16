@@ -1,5 +1,5 @@
 # voicebase-node
-**voicebase-node** is a Node.js client library to work with [VoiceBase REST API](http://voicebase.readthedocs.io/en/v2-beta/index.html).
+A Node.js client library to work with [VoiceBase REST API](http://voicebase.readthedocs.io/en/v2-beta/index.html).
 
 **Note:** This is not the official VoiceBase Node library.
 
