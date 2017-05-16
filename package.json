@@ -1,0 +1,23 @@
+{
+  "name": "voicebase-node",
+  "version": "0.0.1",
+  "description": "A Node.js client library to work with VoiceBase REST API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsdream/voicebase-node.git"
+  },
+  "author": "Vladyslav Mashkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsdream/voicebase-node/issues"
+  },
+  "homepage": "https://github.com/jsdream/voicebase-node#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node-rest-client": "^3.1.0"
+  }
+}
