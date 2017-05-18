@@ -16,6 +16,12 @@ Usage inside your app
     const api = new VoiceBase({
         bearerToken: 'YOUR_TOKEN_HERE'
     });
+    
+    api.media.get().then((data) => {
+        console.log('Response: ', data);
+    }, (err) => {
+        console.log('Error: ', err);
+    });
 
 Supported options 
 -------------------------------------------------
