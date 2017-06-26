@@ -28,8 +28,10 @@
   },
   "homepage": "https://github.com/jsdream/voicebase-node#readme",
   "dependencies": {
+    "form-data": "^2.2.0",
     "lodash": "^4.17.4",
-    "node-rest-client": "^3.1.0"
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
