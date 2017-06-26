@@ -20,4 +20,24 @@ describe('Media Resource', () => {
             expect(data).to.have.property('mediaId');
         });
     });
+
+    it('Should get media item and associated analytics by ID', () => {
+        return api.media.upload(fs.createReadStream(__dirname + '/../fixtures/test-recording.mp3'), {}, {}, {}).then((data) => {
+            expect(data).to.have.property('mediaId');
+
+            return api.media.getById(data.mediaId).then((newData) => {
+                expect(data.mediaId).to.be.equal(newData.media.mediaId);
+            });
+        });
+    });
+
+    it('Should remove media item', () => {
+        return api.media.upload(fs.createReadStream(__dirname + '/../fixtures/test-recording.mp3'), {}, {}, {}).then((data) => {
+            expect(data).to.have.property('mediaId');
+
+            return api.media.remove(data.mediaId).then((response) => {
+                expect(response.statusCode).to.be.equal(204);
+            });
+        });
+    });
 });
