@@ -22,13 +22,17 @@ Usage inside your app
     }, (err) => {
         console.log('Error: ', err);
     });
+    
+For more examples you can check out test folder.
 
 Supported options 
 -------------------------------------------------
 | Option    | Default value | Description |
 | --------  | -----------   | ----------- |
 |baseUrl|https://apis.voicebase.com|API Base URL|
-|connectionTimeout|30000|Set the connection timeout limit (in milliseconds)|
-|responseTimeout|80000|Set the response timeout limit (in milliseconds)|
 |apiVersion|v2-beta|API Version|
 |bearerToken||OAuth Bearer token
+
+TODO
+-------------------------------------------------
+* Write more tests
