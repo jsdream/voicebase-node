@@ -1,5 +1,8 @@
-# voicebase-node
-A Node.js client library to work with [VoiceBase REST API](http://voicebase.readthedocs.io/en/v2-beta/index.html).
+# voicebase-node (v2-beta API)
+
+### [voicebase-node v3 API client is here](https://github.com/jsdream/voicebase-node)
+
+A Node.js client library to work with v2-beta [VoiceBase REST API](http://voicebase.readthedocs.io/en/v2-beta/index.html).
 
 **Note:** This is not the official VoiceBase Node library.
 
@@ -7,7 +10,7 @@ Installation
 -------------------------------------------------
 Install the module via npm
 
-    npm install voicebase-node --save
+    npm install voicebase-node@1.0.0 --save
 
 Usage inside your app
 
