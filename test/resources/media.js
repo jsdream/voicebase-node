@@ -14,7 +14,7 @@ describe('Media Resource', () => {
     });
 
     it('Should upload new media to the service from a url', () => {
-        const mediaUrl = 'https://s3.amazonaws.com/voicebase-developer-test-content-dev/mpthreetest.mp3';
+        const mediaUrl = 'https://www.voiptroubleshooter.com/open_speech/american/OSR_us_000_0061_8k.wav';
 
         return api.media.upload(mediaUrl, {}, {}, {}).then((data) => {
             expect(data).to.have.property('mediaId');
@@ -26,7 +26,7 @@ describe('Media Resource', () => {
             expect(data).to.have.property('mediaId');
 
             return api.media.getById(data.mediaId).then((newData) => {
-                expect(data.mediaId).to.be.equal(newData.media.mediaId);
+                expect(data.mediaId).to.be.equal(newData.mediaId);
             });
         });
     });
