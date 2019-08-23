@@ -1,6 +1,6 @@
 {
   "name": "voicebase-node",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Node.js client library to work with VoiceBase REST API.",
   "keywords": [
     "voicebase",
